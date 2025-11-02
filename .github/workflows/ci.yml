@@ -23,4 +23,4 @@ jobs:
         pip install pytest
 
     - name: Run the tests
-      run: pytest -v
+      run: pyhhtest -v
