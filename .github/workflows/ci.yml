@@ -23,7 +23,7 @@ jobs:
         pip install pytest
 
     - name: Run the tests
-      run: pyhhtest -v
+      run: pytest -v
 
     - name: package application
       run: |
